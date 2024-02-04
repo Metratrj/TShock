@@ -4,6 +4,7 @@ on:
     branches: [ general-devel ]
 jobs:
   extract:
+    if: false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/github-script@v6
